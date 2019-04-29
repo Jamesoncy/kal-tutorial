@@ -1,0 +1,13 @@
+Theories
+1. Software Methodology
+2. Code Versioning Tools
+3. Software Requirements
+
+Coding
+1. HTML
+2. CSS
+3. Bootstrap 4
+4. SASS
+5. Javascript
+6. Backend Programming - PHP / MYSQL
+
