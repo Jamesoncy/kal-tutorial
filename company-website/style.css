@@ -47,8 +47,7 @@ nav ul li:hover {
 
     nav ul li {
         display: inline-block;
-        border-bottom: 0px;
-        border-left: 1px solid black;
+        border: 0;
         text-align: left;
     }
 }
