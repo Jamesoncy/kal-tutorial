@@ -1,0 +1,34 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+#header {
+    position: absolute;
+    height: 30%;
+    background-color: yellow;
+    width: 100%;
+    left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+nav {
+    position: absolute;
+    left: 0px;
+    right:  0px;
+    width: 25%;
+    height: 100%;
+    background-color: red;
+    top: 30%;
+}
+
+#content {
+    position: absolute;
+    left: 25%;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    top: 30%;
+}
