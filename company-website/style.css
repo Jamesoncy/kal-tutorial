@@ -1,0 +1,41 @@
+html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    background-color: green;
+    position: relative;
+    width: 100%;
+    color: white;
+}
+
+nav #nav-list {
+    margin: 0;
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 16px;
+    text-align:  center;
+    border: 2px solid black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:last-child {
+    background-color: red !important;
+}
+
+nav ul li:hover {
+    background-color: yellow !important;
+    transition: background-color 0.5s ease;
+}
