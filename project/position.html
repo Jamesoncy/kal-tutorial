@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Position Relative</title>
+</head>
+<style>
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#firstElement {
+    position: relative;
+    
+    left: 50px;
+}
+
+#secondElement {
+    position: relative;
+    left: 50px;
+}
+
+#static {
+    position:relative;
+    left: 30px;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 0px;
+    background-color: red;
+}
+
+#position-relative {
+    position: relative;
+    top: 50px;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+
+#position-absolute {
+    position: absolute;
+    right: 0;
+    top: 33.33%;
+    width: 100%;
+    height: 33.33%;
+    background-color: blue;
+}
+</style>
+<body>
+
+    <div id = "static">
+        dsadad
+    </div>
+
+    <div id = "firstElement">
+        First Element
+    </div>
+    <div id = "secondElement">
+        Second Element
+    </div>
+
+    <div id = "fixed" >
+        HI THIS IS FIXED
+    </div>
+
+    <div id = "position-relative" >
+        <div id = "position-absolute">
+            Hi this is the absolute Position
+        </div>
+    </div>
+</body>
+</html>
