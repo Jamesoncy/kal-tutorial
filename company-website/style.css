@@ -68,7 +68,7 @@ nav ul li:hover {
 
 #testimonials, #showcase {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 2px;
 }
