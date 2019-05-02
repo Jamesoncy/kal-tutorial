@@ -43,7 +43,7 @@ nav ul li:hover {
 }
 
 #main {
-    background: linear-gradient(to right, rgba(99, 99, 99, 0.5) , rgba(162, 171, 88, 1), rgba(103, 233, 75, 0.5)), url(./images/evgeni-evgeniev-454219-unsplash.jpg);
+    background: linear-gradient(to right, rgba(99, 99, 99, 0.5) , rgba(162, 171, 88, 0.6), rgba(103, 233, 75, 0.3)), url(./images/evgeni-evgeniev-454219-unsplash.jpg);
     min-height: 500px;
     background-size: cover;
     display: flex;
