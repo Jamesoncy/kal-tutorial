@@ -104,6 +104,13 @@ nav ul li:hover {
     background-color: grey;
     text-decoration: none;
     padding: 5px;
+    border: 2px solid black;
+    border-radius: 100px;
+    color: white;
+}
+
+.button:hover {
+    transform: scale(1.2);
 }
 
 .cards .card-image img {
