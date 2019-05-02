@@ -4,6 +4,12 @@ html, body {
     padding: 0;
     font-family: 'Muli', sans-serif;
     font-size: 16px;
+    height: 100%;
+    color: white;
+}
+
+html #testimonials {
+    color: black;
 }
 
 nav {
@@ -13,10 +19,10 @@ nav {
     color: white;
 }
 
-nav #nav-list {
+nav ul {
     margin: 0;
-    list-style-type: none;
-    padding: 0px;
+    list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -31,13 +37,42 @@ nav ul li a {
     color: white;
 }
 
-nav ul li:last-child {
-    background-color: red !important;
-}
-
 nav ul li:hover {
     background-color: yellow !important;
     transition: background-color 0.5s ease;
+}
+
+#main {
+    background: linear-gradient(to right, rgba(99, 99, 99, 0.5) , rgba(162, 171, 88, 1), rgba(103, 233, 75, 0.9));
+    min-height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#main h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#main p {
+    margin: 0;
+    padding: 10px;
+    width: 50%;
+}
+
+#testimonials {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#testimonials p {
+    text-align: center;
 }
 
 @media screen and (min-width: 700px) {
@@ -47,7 +82,8 @@ nav ul li:hover {
 
     nav ul li {
         display: inline-block;
-        border: 0;
         text-align: left;
+        list-style: none;
+        border: 0;
     }
 }
