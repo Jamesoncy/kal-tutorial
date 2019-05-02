@@ -81,11 +81,25 @@ nav ul li:hover {
 #showcase .cards {
     margin-top: 10px;
     margin-left: 50px;
+    border: 1px solid black;
 }
 
 .cards .card-image {
     height: 350px;
     width: 250px;
+    margin: 5px 5px 5px 5px;
+}
+
+.cards 
+.card-image 
+,.card-title, .card-desc, .button {
+    margin: 10px;
+}
+
+.cards .button a {
+    background-color: grey;
+    text-decoration: none;
+    padding: 5px;
 }
 
 .cards .card-image img {
@@ -106,8 +120,12 @@ nav ul li:hover {
     transition: transform 0.3s;
 }
 
-.customer:hover {
+.customer:hover, .cards:hover {
     box-shadow: 0px 0px 25px;
+}
+
+.customer img {
+    margin: 10px;
 }
 
 @media screen and (min-width: 700px) {
