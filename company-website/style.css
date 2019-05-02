@@ -96,6 +96,10 @@ nav ul li:hover {
     margin: 10px;
 }
 
+.cards .button {
+    text-align: right;
+}
+
 .cards .button a {
     background-color: grey;
     text-decoration: none;
