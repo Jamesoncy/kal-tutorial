@@ -50,7 +50,7 @@ nav ul li:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #main h1 {
@@ -63,13 +63,33 @@ nav ul li:hover {
     margin: 0;
     padding: 10px;
     width: 50%;
+    font-weight: bold;
 }
 
-#testimonials {
+#testimonials, #showcase {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 2px;
+}
+
+#showcase {
+    color: black;
+    margin-top: 50px;
+}
+
+#showcase .cards {
+    margin-top: 10px;
+}
+
+.cards .card-image {
+    height: 350px;
+    width: 250px;
+}
+
+.cards .card-image img {
+    height: 100%;
+    width: 100%;
 }
 
 #testimonials p {
